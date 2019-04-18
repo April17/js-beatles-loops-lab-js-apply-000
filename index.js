@@ -27,11 +27,10 @@ function iLoveTheBeatles(number){
   var condition = 0
   var counter = 0
   if (number > 15){
-    condition = number - 15
     do{
       array.push(string)
       counter++
-    }while (counter < condition)
+    }while (counter < 1)
     return array
   }
   else {
