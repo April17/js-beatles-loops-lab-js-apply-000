@@ -20,3 +20,26 @@ function johnLennonFacts(facts){
   }
   return array
 }
+
+function iLoveTheBeatles(number){
+  var string = "I love the Beatles!"
+  var array = []
+  var condition = 0
+  var counter = 0
+  if (number > 15){
+    condition = number - 15
+    do{
+      array.push(string)
+      counter++
+    }while (counter < condition)
+    return array
+  }
+  else {
+    condition = 15 - number
+    do{
+      array.push(string)
+      counter++
+    }while (counter < condition)
+    return array
+  }
+}
